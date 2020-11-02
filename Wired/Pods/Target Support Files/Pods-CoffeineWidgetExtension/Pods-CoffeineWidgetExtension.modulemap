@@ -1,0 +1,6 @@
+framework module Pods_CoffeineWidgetExtension {
+  umbrella header "Pods-CoffeineWidgetExtension-umbrella.h"
+
+  export *
+  module * { export * }
+}

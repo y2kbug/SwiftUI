@@ -1,0 +1,26 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+target 'CoffeineWidgetExtension' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+  # Pods for CoffeineWidgetExtension
+
+end
+
+target 'Wired' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for Wired
+
+  target 'WiredTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+  target 'WiredUITests' do
+    # Pods for testing
+  end
+
+end
